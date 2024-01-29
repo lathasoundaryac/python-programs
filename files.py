@@ -1,0 +1,11 @@
+file1=open("python.txt","r")
+data=file1.read()
+print(data)
+print()
+file2=open("python.txt","r+")
+print(file2.readline(8))
+print()
+file3=open("empty file","w")
+str1="Hello python"
+file3.write(str1)
+print()
